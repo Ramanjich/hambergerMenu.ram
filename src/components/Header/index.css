@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.web-logo {
+  height: 60px;
+  width: 80px;
+}
+.button-style {
+  background-color: transparent;
+  border: none;
+}
+
+.show-popup {
+  background-color: #dcdcdc;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.close-btn {
+  background-color: transparent;
+  border: none;
+  align-self: flex-end;
+  font-size: 25px;
+}
+.h-a-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.popup-home-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.popup-home {
+  font-size: 30px;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+.popup-info-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.popup-about {
+  font-size: 30px;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
